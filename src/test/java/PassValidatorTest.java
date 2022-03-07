@@ -7,7 +7,7 @@ public class PassValidatorTest {
 	@Test
 	public void test() {
 		//PassValidator ob=new PassValidator();
-		boolean res=PassValidator.isValid("ab");
+		boolean res=PassValidator.isValid("ab1234567899999");
 		assertEquals(true,res);
 	}
 
